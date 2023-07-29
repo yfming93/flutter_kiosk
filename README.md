@@ -1,6 +1,6 @@
-# flutter_kiosk_android
+# flutter_kiosk
 
-## Installation
+# Installation
 
 1. Create file **device_admin.xml** in android/app/ ... /res/xml/device_admin.xml with following content:
 
@@ -16,9 +16,7 @@
 
    ```
    <application
-
        ...
-
        <receiver
                android:name="com.kalemba128.flutter_kiosk_android.FlutterKioskAndroidPlugin"
                android:exported="true"
@@ -30,9 +28,7 @@
                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
            </intent-filter>
        </receiver>
-
        ...
-
    </application>
    ```
 
