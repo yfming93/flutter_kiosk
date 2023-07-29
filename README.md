@@ -1,6 +1,6 @@
-# flutter_kiosk_android
+# flutter_kiosk
 
-## Installation
+# Installation
 
 1. Create file **device_admin.xml** in android/app/ ... /res/xml/device_admin.xml with following content:
 
