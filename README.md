@@ -16,9 +16,7 @@
 
    ```
    <application
-
        ...
-
        <receiver
                android:name="com.kalemba128.flutter_kiosk_android.FlutterKioskAndroidPlugin"
                android:exported="true"
@@ -30,9 +28,7 @@
                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
            </intent-filter>
        </receiver>
-
        ...
-
    </application>
    ```
 
