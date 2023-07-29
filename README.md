@@ -1,4 +1,4 @@
-# flutter_kiosk_android
+# flutter_kiosk
 
 ## Installation
 
